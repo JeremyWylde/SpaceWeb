@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  background-color: #F7FAFB;
 }
 
 .App-logo {
@@ -35,4 +41,95 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.wrapper {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 0 1rem 0;
+}
+
+@media screen and (max-width: 865px) {
+  .nav {
+    justify-content: center;
+    min-width: 200px;
+  }
+}
+
+.nav-wrap {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+  color: #7A8185;
+  height: 1rem;
+}
+
+.content{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sup {
+  width: 80%;
+  overflow-wrap: break-word;
+}
+.sup img{
+  width: 80%;
+}
+@media screen and (max-width: 865px) {
+  .sup  {
+    width: 200px;
+  }
+}
+
+.nav-item {
+  display: flex;
+  padding-right: 7px;
+}
+
+.nav-balance {
+  display: flex;
+  min-width: 55px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-weight: 400;
+  font-size: 12px;
+  height: 5rem;
+  line-height: 15px;
+}
+
+.footer b{
+  color: #3DBDF6;
+  font-size: 11px;
+  font-weight: 200;
+}
+
+.alert {
+  height: 17px;
+  width: 20px;
+  margin-right: -11%;
+}
+
+.numberOfAlert {
+  height: 12px;
+  display: flex;
+  justify-content: center;
+  width: 12px;
+  font-size: 8px;
+  background-color: #D0021B;
+  border-radius: 100%;
+  color: white;
+  margin-right: 14%;
 }

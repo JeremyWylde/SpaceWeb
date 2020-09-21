@@ -1,0 +1,18 @@
+.sidebarWrapper {
+    height: 41rem;
+    width: 16%;
+    background-color: #062436;
+}
+
+@media screen and (max-width: 810px) {
+    .sidebarWrapper {
+        width: 50px;
+    }
+    .sidebarWrapper p{
+        display: none;
+    }
+}
+
+.logo {
+    margin: 1rem 1rem 2rem;
+}

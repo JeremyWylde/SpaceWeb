@@ -1,26 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Provider} from "react-redux";
+import store from "./2_bll/rootReducer"
+import SideBar from "./1_ui/sideBar/SideBar";
+import Content from "./1_ui/Content";
+import Footer from "./1_ui/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Provider store={store}>
+            <div className="App">
+                <div className={"wrapper"}>
+                    <SideBar/>
+                    <Content/>
+                </div>
+                <Footer/>
+            </div>
+        </Provider>
+    );
 }
 
 export default App;

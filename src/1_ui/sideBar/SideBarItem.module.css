@@ -1,0 +1,33 @@
+.sidebarItemWrapper{
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    padding-left: 1rem;
+    height: 3rem;
+}
+
+.sidebarItemWrapperActive{
+    color: white;
+    height: 3rem;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    padding-left: 1rem;
+    background-color: #15526A;
+}
+
+.someLine{
+    position: absolute;
+    background-color: #3DBDF6;
+    height: 3rem;
+    width: 5px;
+    left: 0rem;
+}
+
+p {
+    margin-left: 1rem;
+    cursor: pointer;
+}
