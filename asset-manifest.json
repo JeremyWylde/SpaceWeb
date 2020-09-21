@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/SpaceWeb/static/css/main.3debb2bf.chunk.css",
+    "main.js": "/SpaceWeb/static/js/main.e69da414.chunk.js",
+    "main.js.map": "/SpaceWeb/static/js/main.e69da414.chunk.js.map",
+    "runtime-main.js": "/SpaceWeb/static/js/runtime-main.c53ea255.js",
+    "runtime-main.js.map": "/SpaceWeb/static/js/runtime-main.c53ea255.js.map",
+    "static/js/2.ffc821de.chunk.js": "/SpaceWeb/static/js/2.ffc821de.chunk.js",
+    "static/js/2.ffc821de.chunk.js.map": "/SpaceWeb/static/js/2.ffc821de.chunk.js.map",
+    "index.html": "/SpaceWeb/index.html",
+    "precache-manifest.891da470f76b9040bacf5c762f657d47.js": "/SpaceWeb/precache-manifest.891da470f76b9040bacf5c762f657d47.js",
+    "service-worker.js": "/SpaceWeb/service-worker.js",
+    "static/css/main.3debb2bf.chunk.css.map": "/SpaceWeb/static/css/main.3debb2bf.chunk.css.map",
+    "static/js/2.ffc821de.chunk.js.LICENSE.txt": "/SpaceWeb/static/js/2.ffc821de.chunk.js.LICENSE.txt",
+    "static/media/VPS.svg": "/SpaceWeb/static/media/VPS.74b1dbab.svg",
+    "static/media/account.svg": "/SpaceWeb/static/media/account.3406f276.svg",
+    "static/media/alert.svg": "/SpaceWeb/static/media/alert.8d7dd1ed.svg",
+    "static/media/bortovoyZhurnal.svg": "/SpaceWeb/static/media/bortovoyZhurnal.e8e65b2d.svg",
+    "static/media/domens.svg": "/SpaceWeb/static/media/domens.6ba16b94.svg",
+    "static/media/sideBarLogo.svg": "/SpaceWeb/static/media/sideBarLogo.48632028.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c53ea255.js",
+    "static/js/2.ffc821de.chunk.js",
+    "static/css/main.3debb2bf.chunk.css",
+    "static/js/main.e69da414.chunk.js"
+  ]
+}
